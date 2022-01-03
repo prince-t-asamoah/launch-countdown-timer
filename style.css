@@ -4,4 +4,7 @@ body {
     font-family: "Red Hat Text",sans-serif;
     font-size: 14px;
     font-weight: 700;
+    background-image: url('images/pattern-hills.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
