@@ -4,7 +4,30 @@ body {
     font-family: "Red Hat Text",sans-serif;
     font-size: 14px;
     font-weight: 700;
+    height: 100vh;
     background-image: url('images/pattern-hills.svg');
     background-repeat: no-repeat;
     background-size: cover;
+}
+.header h1 {
+    color:hsl(0, 0%, 100%);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.5em;
+}
+.card span:first-child {
+    font-size: xx-large;
+    color:hsl(345, 95%, 68%);
+}
+.card span:last-child {
+    color:hsl(237, 18%, 59%);
+}
+.attribution {
+    font-size: 11px;
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+}
+.attribution a { 
+    color: hsl(345, 95%, 68%);
 }
